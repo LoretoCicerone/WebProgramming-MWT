@@ -11,9 +11,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Role::create(['name'=>'doctor']);
-        Role::create(['name'=>'admin']);
-        Role::create(['name'=>'patient']);
-        // $this->call(UsersTableSeeder::class);
+    	Role::create(['name'=>'doctor']);
+    	Role::create(['name'=>'admin']);
+    	Role::create(['name'=>'patient']);
+        // $this->call(UserSeeder::class);
     }
 }
