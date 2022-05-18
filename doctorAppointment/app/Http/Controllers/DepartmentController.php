@@ -39,7 +39,7 @@ class DepartmentController extends Controller
             'department'=>'required'
         ]);
         Department::create($request->all());
-        return redirect()->back()->with('message','Department created');
+        return redirect()->back()->with('message','Department created succesfully.');
     }
 
     /**

@@ -127,7 +127,7 @@ class AppointmentController extends Controller
                 'status'=>0
             ]);
         }
-        return redirect()->route('appointment.index')->with('message','Appointment time updated!!');
+        return redirect()->route('appointment.index')->with('message','Appointment time updated succesfully.');
     }
 
 

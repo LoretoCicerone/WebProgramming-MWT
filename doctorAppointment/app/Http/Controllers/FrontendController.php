@@ -47,7 +47,7 @@ class FrontendController extends Controller
         $request->validate(['time'=>'required']);
         $check=$this->checkBookingTimeInterval();
         if($check){
-            return redirect()->back()->with('message','You have already bookedn an appointment.Please wait to make next appointment');
+            return redirect()->back()->with('message','You have already booked an appointment.Please wait to make next appointment');
         }
    
         
@@ -78,7 +78,7 @@ class FrontendController extends Controller
 
         }
 
-        return redirect()->back()->with('message','Your appointment was booked');
+        return redirect()->back()->with('message','Your appointment was booked succesfully.');
 
 
     }

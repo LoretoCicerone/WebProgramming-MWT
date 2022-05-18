@@ -5,13 +5,13 @@
 <div class="page-header">
     <div class="row align-items-end">
         <div class="col-lg-8">
-            <div class="page-header-title">
+            {{-- <div class="page-header-title">
                 <i class="ik ik-command bg-blue"></i>
                 <div class="d-inline">
                     <h5>Department</h5>
                     <span>add department</span>
                 </div>
-            </div>
+            </div> --}}
         </div>
     <div class="col-lg-4">
         <nav class="breadcrumb-container" aria-label="breadcrumb">
@@ -43,7 +43,7 @@
 				<div class="col-lg-6">
                     <div class="form-group">
 
-					<label for="">Department name</label>
+					<label for="">Department Name:</label>
 					<input type="text" name="department" class="form-control @error('department') is-invalid @enderror" placeholder="department name" value="                   {{old('department')}}">
                     @error('department')
                             <span class="invalid-feedback" role="alert">
@@ -55,7 +55,7 @@
             <div class="form-group">
 
 				
-              <button type="submit" class="btn btn-primary mr-2">Submit</button>
+              <button type="submit" class="btn btn-primary mr-2">Create</button>
             </div>
         </div>
            

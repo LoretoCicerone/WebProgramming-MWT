@@ -5,16 +5,13 @@
 <div class="page-header">
     <div class="row align-items-end">
         <div class="col-lg-8">
-           
-
-            <div class="page-header-title">
+            {{-- <div class="page-header-title">
                 <i class="ik ik-command bg-blue"></i>
                 <div class="d-inline">
                     <h5>Doctors</h5>
-                    <span>appoinment time</span>
-                    
+                    <span>appoinment time</span>     
                 </div>
-            </div>
+            </div> --}}
         </div>
     <div class="col-lg-4">
         <nav class="breadcrumb-container" aria-label="breadcrumb">

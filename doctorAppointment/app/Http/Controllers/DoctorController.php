@@ -44,7 +44,7 @@ class DoctorController extends Controller
         $data['password'] = bcrypt($request->password);
         User::create($data);
 
-        return redirect()->back()->with('message','Doctor added successfully');
+        return redirect()->back()->with('message','Doctor added successfully.');
 
 
         
